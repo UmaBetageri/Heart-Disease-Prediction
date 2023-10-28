@@ -14,11 +14,12 @@ The sample size of the cleaned data set is 319,795 observations (survey responde
 
 ### Results and Conclusions
 
-Table 4: Comparison of Various Machine Learning Models
 
-<img width="400" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/33b48517-16b3-4d02-97ab-12bd6f737606">
+<img width="430" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/33b48517-16b3-4d02-97ab-12bd6f737606">
 
-<img width="550" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/c276791d-4492-4d50-8fc1-25fa8e6a3190">
+<img width="520" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/c276791d-4492-4d50-8fc1-25fa8e6a3190">
+
+Table: Comparison of Various Machine Learning Models
 
 All of the models were able to predict heart disease with greater than 80% accuracy, and 6 of the 8 models were more than 90% accurate. If we only consider the accuracy of the predictions, the Logistic Regression (91.56%), Random Forest (91.48%), and Decision Tree (91.39%) models are the best. However, since most of the individuals in the data set do not have heart disease, the ability of the model to successfully predict both the presence and absence of heart disease should be considered when evaluating the success of each model. For instance, the Decision Tree was 91.39% accurate overall, but was completely unsuccessful in predicting heart disease in people that had the disease. By plotting the ROC curve and evaluating the AUC to determine the proportion of true positive results, we can better understand the best models to predict heart disease, instead of relying on accuracy alone. Based on AUC, the best model for predicting heart disease is Logistic Regression (0.843).
 
