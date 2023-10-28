@@ -16,7 +16,7 @@ The sample size of the cleaned data set is 319,795 observations (survey responde
 
 Table 4: Comparison of Various Machine Learning Models
 
-![image](https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/33b48517-16b3-4d02-97ab-12bd6f737606)
+<img width="400" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/33b48517-16b3-4d02-97ab-12bd6f737606">
 
 <img width="550" alt="image" src="https://github.com/UmaBetageri/Heart-Disease-Prediction/assets/134670470/c276791d-4492-4d50-8fc1-25fa8e6a3190">
 
